@@ -72,3 +72,4 @@ class AppWindow(tk.Tk):
     def clear_inputs(self):
         self.title_entry.delete(0, "end")
         self.description_entry.delete(0, "end")
+        
